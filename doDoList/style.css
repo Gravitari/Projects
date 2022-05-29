@@ -1,0 +1,20 @@
+body {
+    background-color: #95aede;
+}
+
+.page {
+text-align: center;
+}
+
+
+
+.commit-task-button {
+    background-color: #2E72E4;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: wheat;
+    padding: 10px;
+    border-radius: 1rem;
+    
+}

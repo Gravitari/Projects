@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Auction</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="game-title">Auction game</h1>
+            <div class="base">
+                <div class="auction-item">
+                    <p class="auction-text">Auction Item</p>
+                    <p class="auction-text">Greatest Bid: </p>
+                    <p class="auction-text" id="current-bid">$ </p>
+                </div>
+                <br><br>
+                <div class="bidders">
+                    <div class="players">
+                        <div class="player">
+                            <h3>Bidder 1</h3>   
+                            <input class="input" type ="number" id = "input-el-one">
+                            <button class="bid-btn" id ="bid-one">Bid</button>
+                            <button class="pass-btn" id="pass-one">Pass</button>
+                        </div>
+                        <div class="player">
+                            <h3>Bidder 2</h3>
+                            <input class="input" type ="number" id = "input-el-two">
+                            <button class="bid-btn" id ="bid-two">Bid</button>
+                            <button class="pass-btn"  id="pass-two">Pass</button>
+                        </div>
+                        <div class="player">
+                            <h3>Bidder 3</h3>
+                            <input class="input" type="number" id = "input-el-three">
+                            <button class="bid-btn" id ="bid-three">Bid</button>
+                            <button class="pass-btn"  id="pass-three">Pass</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
