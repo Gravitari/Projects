@@ -1,0 +1,82 @@
+  <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Budget App</h1>
+  <div class="container">
+      <div id="maindiv">
+        <div id="calcs">
+          <div id="budget-form">
+            <p>Please Enter your budget</p>
+            <input id="budget-input" placeholder="enter budget" type="number"/>
+            <button id="confbtn">Confirm Budget</button>  
+          </div>
+  
+          <div class="expense-form" >
+            <p>Please Enter your expense</p>
+            <form>
+              <input id="expense-title" type="text" placeholder="expense type"/>
+            </form>
+              <p>Please enter Expense amount</p>
+            <form>
+              <input id="expense-amount" type="number"placeholder="expense amount"/>
+            </form>
+            <button id="expense-btn">Add Expense</button>
+          </div>
+
+
+        </div>
+      </div>
+      <div id="outputdiv">
+        <div class="display-div">
+          <div class="display">
+            <p>BUDGET</p>
+            <p>BUDGET SYMBOL</p>
+            <p id="budget-text">$2500</p>
+          </div>
+          <div class="display">
+            <p>Expenses</p>
+            <p>Expense Symbol</p>
+            <p id="expense-text">666.666</p>
+          </div>
+          <div class="display">
+            <p>Balance</p>
+            <p>Balance Symbol</p>
+            <p id="balance-text">777777777</p>
+          </div>
+        </div>
+        <div class="display-div2">
+          <div class="display2">
+            <p>Expense Title</p>
+            <p>Expense Title 2</p>
+          </div>
+          <div class="display2">
+            <p>Expense Value</p>
+            <p>$100</p>
+          </div>
+          <div class="display2">
+            <p>number1</p>
+            <p>number2</p>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+    
+  
+
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

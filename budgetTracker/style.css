@@ -1,0 +1,42 @@
+
+#budget-form {
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+  
+}
+.expense-form{
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+}
+
+#outputdiv{
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+}
+
+.container{
+  display:flex;
+  width:100%
+}
+
+.display-div{
+  display:flex;
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+}
+
+.display-div2{
+  display:flex;
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+}
+
+.display2 {
+  padding: 10px;
+  margin: 5px;
+}
